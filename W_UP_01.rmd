@@ -46,9 +46,15 @@ position is a categorical variable. pushups is a numerical variable, so I will d
 boxplot(pushups~position,data=mydata)
 ```
 
-It appears that the skill guys do more pushups than the line guys
+It appears that the skill guys do more pushups than the line guys.
+the pushups variable are on the Y axix, while the 
+
 ### Numerical Descriptive Results
 
+
+```{r}
+favstats(pushups~position,data=mydata)
+```
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ## Inferential Results
